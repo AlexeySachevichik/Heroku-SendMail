@@ -1,5 +1,5 @@
 {
-  "name": "test-heroku-send-mail",
+  "name": "connection-to-leads",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

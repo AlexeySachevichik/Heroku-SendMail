@@ -10,5 +10,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(config.port, (error) => {
 	if(error) return console.log(error);
 	require("./route.js")(app);
-	console.log(`Start listen: http://localhost:${config.port}`);
+	var d = Date.now();
+	console.log(`[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}] Start listen http://localhost:${config.port}`);
 });
