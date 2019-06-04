@@ -6,7 +6,7 @@ module.exports = function(app){
 	app.get("/", (request, response) => {
 		var d = new Date;
 		return response.send(`[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}] Start listen http://localhost:${config.port}`);
-	}
+	});
 	
 	app.post("/", (request, response) => {
 
