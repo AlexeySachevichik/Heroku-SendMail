@@ -25,7 +25,7 @@ module.exports = function(app){
       from: `"${request.body.name}" <${request.body.sender}>`,
       to: request.body.address,
       subject: request.body.subject,
-      text: request.body.text
+      html: request.body.text
     },
     (error, info) => {
       if (info) {
