@@ -53,8 +53,9 @@ module.exports = function(app){
       });
     };
 
-    var email_list = JSON.parse(request.body.elist);
-    var promise_list = email_list.map(item => {
+    //var email_list = JSON.parse(request.body.elist);
+    //var promise_list = email_list.map(item => {
+    var promise_list = request.body.elist.map(item => {
       return sendSingleMail(request.body.sender, request.body.name, item.lead_id, item.address, item.subject, item.text);
     });
 
