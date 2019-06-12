@@ -58,10 +58,10 @@ module.exports = function(app){
     Promise.all(promise_list)
       .then(results => {
         console.log(results);
-        return response.send(results);
+        return response.send({"results": results});
       })
       .catch(error => {
-        return response.send(error);
+        return response.send({"error": error});
       });
   });
 
