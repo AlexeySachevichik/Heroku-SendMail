@@ -16,7 +16,8 @@ module.exports = function(app){
       auth: {
         user: request.body.user,
         pass: request.body.pass
-      }
+      },
+      pool: true
     });
 
     var sendSingleMail = function(sender, name, lead, address, subject, text){
@@ -65,6 +66,8 @@ module.exports = function(app){
         console.log(error);
         return response.sendStatus(500);
       });
+
+    transporter.close();
   });
 
   app.post("/test", (request, response) => {
