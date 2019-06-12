@@ -36,7 +36,6 @@ module.exports = function(app){
                 "id": info.messageId,
                 "lead": lead,
                 "email": address,
-                "date": new Date,
                 "status": 200
               });
             } else if (error) {
@@ -44,7 +43,6 @@ module.exports = function(app){
                 "id": '',
                 "lead": lead,
                 "email": address,
-                "date": new Date,
                 "status": 500
               });
             }
@@ -53,8 +51,6 @@ module.exports = function(app){
       });
     };
 
-    //var email_list = JSON.parse(request.body.elist);
-    //var promise_list = email_list.map(item => {
     var promise_list = request.body.elist.map(item => {
       return sendSingleMail(request.body.sender, request.body.name, item.lead_id, item.address, item.subject, item.text);
     });
