@@ -57,11 +57,13 @@ module.exports = function(app){
 
     Promise.all(promise_list)
       .then(results => {
-        console.log(results);
-        return response.send(JSON.stringify({"results": results}));
+        var res = JSON.stringify({"results": results, "error": ""});
+        console.log(res);
+        return response.send(res);
       })
       .catch(error => {
-        return response.send(JSON.stringify({"error": error}));
+        var res = JSON.stringify({"results": "", "error": error});
+        return response.send(res);
       });
   });
 
