@@ -3,7 +3,54 @@
 	"pass": "CAV7XA63G7QMKMUWQ42J",
 	"sender": "test@test.com",
 	"name": "Foo Bar",
-	"address": "alexey.sachevichik@succraft.com",
-	"subject": "Mail subject",
-	"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+	"list": [
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		},
+		{
+			"lead": "00Q2v00001PDKDcEAP",
+			"address": "alexey.sachevichik@succraft.com",
+			"subject": "Mail subject",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores expedita voluptatum quos suscipit nisi rerum, nobis mollitia! Fugit voluptates id cumque dolores et excepturi mollitia, repellendus commodi, vero labore itaque quod obcaecati maxime modi eaque rem! Voluptates suscipit minima, illum eveniet optio ab unde provident accusantium aperiam dignissimos non ea recusandae magni sunt quam dolor temporibus magnam. Consequatur labore, veniam nihil dolorum molestiae sequi asperiores odio ullam tempora laborum ad reprehenderit veritatis delectus quibusdam libero eius. Repellendus labore iste, cumque animi ex odit beatae quibusdam iusto maxime ipsam ut, dignissimos soluta aliquam deleniti cum. Eum, impedit doloremque commodi quaerat."
+		}
+	]
 }

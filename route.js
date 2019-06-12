@@ -19,24 +19,56 @@ module.exports = function(app){
       }
     });
 
-    transporter.sendMail({
-      sender: request.body.sender,
-      replyTo: request.body.sender,
-      from: `"${request.body.name}" <${request.body.sender}>`,
-      to: request.body.address,
-      subject: request.body.subject,
-      text: request.body.text
-    },
-    (error, info) => {
-      if (info) {
-        console.log(`Message sent: ${info.messageId}`);
-        return response.sendStatus(200);
-      }
-      else if (error) {
-        console.log('Message does not sent');
-        console.log(error);
-        return response.sendStatus(500);
-      }
+    var sendSingleMail = function(sender, name, lead, address, subject, text){
+      return new Promise((resolve, reject) => {
+        transporter.sendMail(
+          {
+            sender: sender,
+            replyTo: sender,
+            from: `"${name}" <${sender}>`,
+            to: address,
+            subject: subject,
+            text: text
+          },
+          (error, info) => {
+            if (info) {
+              resolve({
+                "id": info.messageId,
+                "lead": lead,
+                "email": address,
+                "date": new Date,
+                "status": 200
+              });
+            } else if (error) {
+              reject({
+                "id": '',
+                "lead": lead,
+                "email": address,
+                "date": new Date,
+                "status": 500
+              });
+            }
+          }
+        );
+      });
+    };
+
+    var promise_list = request.body.list.map(item => {
+      return sendSingleMail(request.body.sender, request.body.name, item.lead, item.address, item.subject, item.text);
     });
+
+    Promise.all(promise_list)
+      .then(results => {
+        console.log(results);
+        return response.send(results);
+      })
+      .catch(error => {
+        return response.send(error);
+      });
+  });
+
+  app.post("/test", (request, response) => {
+    console.log(request.body);
+    return response.sendStatus(200);
   });
 };
