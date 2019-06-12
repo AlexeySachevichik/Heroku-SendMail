@@ -62,6 +62,7 @@ module.exports = function(app){
         return response.send(res);
       })
       .catch(error => {
+        console.log(error);
         return response.sendStatus(500);
       });
   });
